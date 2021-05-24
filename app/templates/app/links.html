@@ -1,0 +1,10 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load staticfiles %}
+<h2>{{ title }}</h2>
+<a href ="https://www.kinopoisk.ru" target="_blank"> <img src="{% static 'app/content/kino.jpg' %}" width="100" height="100" alt="Logo 1"/></a>
+<a href ="https://www.ivi.ru" target="_blank"> <img src="{% static 'app/content/ivi.png' %}" width="100" height="100" alt="Logo 2"/></a>
+<a href ="https://okko.tv" target="_blank"> <img src="{% static 'app/content/okko.png' %}" width="100" height="100" alt="Logo 3"/></a>
+
+{% endblock %}
